@@ -1,5 +1,4 @@
 import { observer } from "mobx-react-lite";
-import { Activity } from "../../../app/models/Activity";
 import { useStore } from "../../../app/stores/store";
 import ActivityListItem from "./ActivityListItem";
 

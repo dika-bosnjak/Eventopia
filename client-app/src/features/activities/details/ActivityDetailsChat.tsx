@@ -8,7 +8,10 @@ export default function ActivityDetailsChat() {
 
         <div className="grid grid-cols-12 px-4 relative mt-4">
           <div className="col-span-1">
-            <img src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg" />
+            <img
+              src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg"
+              alt=""
+            />
           </div>
           <div className="col-span-8 mt-2">
             <p className="text-gray-500 font-bold">
@@ -21,7 +24,10 @@ export default function ActivityDetailsChat() {
 
         <div className="grid grid-cols-12 px-4 relative mt-4">
           <div className="col-span-1">
-            <img src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg" />
+            <img
+              src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg"
+              alt=""
+            />
           </div>
           <div className="col-span-8 mt-2">
             <p className="text-gray-500 font-bold">

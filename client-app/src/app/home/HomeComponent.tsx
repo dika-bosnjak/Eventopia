@@ -20,7 +20,7 @@ export default function HomeComponent() {
       </div>
 
       <div className="col-span-12 md:col-span-8 mr-10 flex align-middle items-center">
-        <img src="assets/people.svg" />
+        <img src="assets/people.svg" alt="" />
       </div>
     </div>
   );

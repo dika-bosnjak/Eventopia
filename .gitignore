@@ -475,3 +475,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+client-app/package-lock.json
+
+*.db-shm
+*.db-wal

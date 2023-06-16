@@ -1,3 +1,4 @@
+import { format } from "date-fns";
 import { useStore } from "../../../app/stores/store";
 import { BsInfoLg, BsCalendar4 } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
@@ -27,7 +28,7 @@ export default function ActivityDetailsInfo() {
           </div>
           <div className="col-span-10  ml-4  md:ml-0">
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              {activity?.date.split("T")[0]}
+              {format(activity?.date!, "dd MMM yyyy hh:mm")}
             </p>
           </div>
         </div>

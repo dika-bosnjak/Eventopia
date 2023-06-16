@@ -3,6 +3,7 @@ import { ImLocation } from "react-icons/im";
 import { TbCalendarTime } from "react-icons/tb";
 import { observer } from "mobx-react-lite";
 import { Link } from "react-router-dom";
+import { format } from "date-fns";
 
 interface Props {
   activity: Activity;
@@ -41,7 +42,10 @@ export default observer(function ActivityListItem({ activity }: Props) {
                   <ImLocation size={15} />
                   <span className="ml-1">{activity.city} | </span>
                   <TbCalendarTime size={20} />
-                  <span className="ml-1"> {activity.date}</span>
+                  <span className="ml-1">
+                    {" "}
+                    {format(activity.date!, "dd MMM yyyy h:mm aa")}
+                  </span>
                 </p>
               </div>
             </figcaption>

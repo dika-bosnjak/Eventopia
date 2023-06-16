@@ -12,7 +12,10 @@ export default function ActivityDetailsSidebar() {
             Host
           </div>
           <div className="col-span-2">
-            <img src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg" />
+            <img
+              src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg"
+              alt=""
+            />
           </div>
           <div className="col-span-8 mt-3">
             <p className="text-blue-700 font-bold">Bob</p>
@@ -22,7 +25,10 @@ export default function ActivityDetailsSidebar() {
 
         <div className="grid grid-cols-10 px-4 border-b-2 mt-2">
           <div className="col-span-2">
-            <img src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg" />
+            <img
+              src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg"
+              alt=""
+            />
           </div>
           <div className="col-span-8 mt-3">
             <p className="text-blue-700 font-bold">Anna</p>

@@ -1,4 +1,3 @@
-import React from 'react'
 import { ServerError } from '../models/ServerError'
 import { makeAutoObservable } from 'mobx';
 
