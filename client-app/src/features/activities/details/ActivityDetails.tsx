@@ -1,7 +1,7 @@
 import { observer } from "mobx-react-lite";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
 import { useStore } from "../../../app/stores/store";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import ActivityDetailsHeader from "./ActivityDetailsHeader";
 import ActivityDetailsInfo from "./ActivityDetailsInfo";
@@ -13,9 +13,6 @@ export default observer(function ActivityDetails() {
   const { id } = useParams();
   const {
     selectedActivity: activity,
-    openForm,
-    cancelSelectedActivity,
-    deleteActivity,
     loadActivity,
     loadingInitial,
   } = activityStore;
