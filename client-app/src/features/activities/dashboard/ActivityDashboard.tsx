@@ -16,11 +16,11 @@ export default observer(function ActivityDashboard() {
   if (activityStore.loadingInitial) return <LoadingComponent />;
 
   return (
-    <div className="grid grid-cols-6">
-      <div className="col-span-2">
+    <div className="md:grid md:grid-cols-6">
+      <div className="md:col-span-2 mx-auto">
         <ActivityFilters />
       </div>
-      <div className="col-span-4">
+      <div className="md:col-span-4">
         <ActivityList />
       </div>
     </div>
